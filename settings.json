@@ -5,20 +5,20 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "Bitblocks Block Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Bitblocks",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "XBB",
 
   // logo
   "logo": "/images/logo.png",
   // Optional header logo - change false to e.g. "/images/headerlogo.png"
-  "headerlogo": false,
+  "headerlogo": true,
 
   // favicon
   "favicon": "public/favicon.ico",
@@ -29,7 +29,7 @@
   //     Lux, Materia, Minty, Pulse, Sandstone, Simplex, Sketchy, Slate, 
   //     Solar, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Cyborg",
+  "theme": "Yeti",
 
   // port to listen for requests on.
   "port" : 3001,
@@ -53,13 +53,13 @@
 
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "username": "darkcoinrpc",
-    "password": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": 2332,
+    "username": "bitblocksrpc",
+    "password": "password"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 10,
 
   // language settings
   "locale": "locale/en.json",
@@ -67,9 +67,9 @@
   // menu settings
   "display": {
     "api": true,
-    "markets": true,
+    "markets": false,
     "richlist": true,
-    "twitter": true,
+    "twitter": false,
     "facebook": false,
     "googleplus": false,
     "youtube": false,
@@ -90,7 +90,7 @@
     "show_market_cap_over_price": false,
     "difficulty": "POW",
     "last_txs": 100,
-    "txs_per_page": 10
+    "txs_per_page": 100
   },
 
   // ensure links on API page are valid
@@ -123,13 +123,13 @@
   // low flag: greater than this value flagged yellow
   // high flag: greater than this value flagged red
   "movement": {
-    "min_amount": 100,
+    "min_amount": 10,
     "low_flag": 1000,
     "high_flag": 5000
   },
 
   // twitter, facebook, googleplus, youtube
-  "twitter": "iquidus",
+  "twitter": "yourtwitterpage",
   "facebook": "yourfacebookpage",
   "googleplus": "yourgooglepluspage",
   "youtube": "youryoutubechannel",
@@ -166,15 +166,15 @@
 
   // nethash unitd: sets nethash API return units
   // valid options: "P" (PH/s), "T" (TH/s), "G" (GH/s), "M" (MH/s), "K" (KH/s)
-  "nethash_units": "G",
+  "nethash_units": "K",
 
   // Address labels
-  // example : "JhbrvAmM7kNpwA6wD5KoAsbtikLWWMNPcM": {"label": "This is a burn address", "type":"danger", "url":"http://example.com"}
+  // example : "B00000000000000000000000000000Burn": {"label": "This is a burn address", "type":"danger", "url":"http://example.com"}
   // label (required) = test to display
   // type (optional) = class of label, valid types: default, primary, warning, danger, success
   // url (optional) = url to link to for more information
   "labels": {
-  //  "JSoEdU717hvz8KQVq2HfcqV9A79Wihzusu": {"label": "Developers address", "type":"primary", "url":"http://example.com"},
-  //  "JSWVXHWeYNknPdG9uDrcBoZHztKMFCsndw": {"label": "Cryptsy"}
+  //  "BBbBBHpVydDUp62pCtya9pbzXhnpeeCJzM": {"label": "Developers address", "type":"primary", "url":"http://example.com"},
+  //  "B00000000000000000000000000000Burn": {"label": "Burn address"}
   }
 }
