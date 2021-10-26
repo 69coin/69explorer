@@ -169,12 +169,12 @@
   "nethash_units": "G",
 
   // Address labels
-  // example : "B00000000000000000000000000000Burn": {"label": "This is a burn address", "type":"danger", "url":"http://example.com"}
+  // example : "600000000000000000000000000000Burn": {"label": "This is a burn address", "type":"danger", "url":"http://example.com"}
   // label (required) = test to display
   // type (optional) = class of label, valid types: default, primary, warning, danger, success
   // url (optional) = url to link to for more information
   "labels": {
-  //  "BBbBBHpVydDUp62pCtya9pbzXhnpeeCJzM": {"label": "Developers address", "type":"primary", "url":"http://example.com"},
-  //  "B00000000000000000000000000000Burn": {"label": "Burn address"}
+  //  "6000000000000000000000000000000000": {"label": "Developers address", "type":"primary", "url":"http://example.com"},
+  //  "600000000000000000000000000000Burn": {"label": "Burn address"}
   }
 }
